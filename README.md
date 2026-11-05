@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # RAG Notes Chatbot
 
 A retrieval-augmented chatbot that answers questions using your own `.md`/`.txt` notes.
@@ -81,13 +80,6 @@ that produced it), `metrics.csv` (avg/min/max and pass counts per metric),
 on its own only keeps a rolling snapshot of the *last* evaluate() call in
 `.deepeval/`, so without this the history is gone on the next run — the exporter
 folds that snapshot in too, deduplicated, so nothing already on disk is lost.
-ag_full_evaluation_demo_Deepeval/rag_full_evaluation_demo$ git pull --no-rebase origin main --allow-unrelated-histories
-From https://github.com/kaizenwithkiran/DeepEval_Demo
- * branch            main       -> FETCH_HEAD
-Auto-merging README.md
-CONFLICT (add/add): Merge conflict in README.md
-Automatic merge failed; fix conflicts and then commit the result.
-kiransahu@mfp-lptp-042:~/Documents/Personal_Docs/Training/10thAugBatch/Week2/W2D4/Test_Suite_2RAG/rag_full_evaluation_demo_Deepeval/rag_full_evaluation_demo$ 
 
 **See [EVALUATIONS.md](EVALUATIONS.md)** for what each metric measures, why the
 thresholds are where they are, how to read a failure, and a set of exercises that break
@@ -109,6 +101,3 @@ tests/                 The same metrics as pytest assertions, for CI
 chroma_db/             Persisted vector store (auto-created, gitignored)
 results/               One folder per run, plus the CSV exports (gitignored)
 ```
-=======
-# DeepEval_Demo
->>>>>>> 269d2fe59f0d26211901191e2cc2cf52a5e6fc0a
