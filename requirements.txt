@@ -1,0 +1,15 @@
+# --- the chatbot ---
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-chroma>=0.1.4
+langchain-text-splitters>=0.3.0
+chromadb>=0.5.0
+streamlit>=1.38.0
+python-dotenv>=1.0.1
+tiktoken>=0.7.0
+
+# --- the evaluation suite (evals/ and tests/) ---
+deepeval>=4.2.0
+pytest>=8.0.0
+pytest-xdist>=3.5.0        # pytest -n 4 — judge calls are IO-bound, so this helps a lot
